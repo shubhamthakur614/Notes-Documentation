@@ -1,0 +1,9 @@
+Spring Security Implementation Steps
+1)Create a pkg called as abc.config
+-inside this pkg create class AppConfig annotated with @Configuration
+-Create mehod called as 
+public SecurityFilterChain securityFilterChain(HttpSecurity http) with method annotated with @Bean annotation.
+2)we are creating this because when we put credentioal in spring security it will put that into its cookies so as we
+want to create jwt token we are creating sessionCreationPolicy stateless. 
+-inside the method we will take help of http object to create http.sessionManagement.sessionCreationPolicy 
+-and then we require authorizehttpRequest

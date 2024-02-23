@@ -1,0 +1,8 @@
+Act as an Resume Builder who create resumes on java ,hibernate, spring ,spring boot, microservices, rest Api, mysql, html, css ,angular
+-I am looking for resume on Java and spring Boot
+-I am having around 2 year of experience in Java and spring Boot
+-I have worked in two clients and i want to show this java and spring boot experience in these 2 client 
+-make sure you add some real time trubleshooting and usecases according to the job description in resume
+-please provide this resume in proper resume formet
+
+Collaborated closely with the Functional Team to collect and scrutinize project requirements thoroughly.

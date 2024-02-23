@@ -1,0 +1,208 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Shubham Thakur} \\ \vspace{1pt}
+     Pune,India 411057 \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ 9421214350 ~ \href{mailto:shubhamthakur614@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{shubhamthakur614@gmail.com}} ~ 
+    \href{https://linkedin.com/in/shubhamthakur614/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/shubhamthakur614}}  ~
+    \href{https://github.com/shubhamthakur614}{\raisebox{-0.2\height}\faGithub\ \underline{shubhamthakur614}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------Professional Summary-----------
+\section{Professional Summary}
+  Results-oriented Java Developer with 1.10 years of experience, specializing in Backend services, Microservices architecture, Database modeling, and Angular framework. Proven communicator, committed to surpassing project goals and client expectations. Proficient in Agile methodologies and Experienced in solving complex technical challenges. Committed to delivering excellence and fostering continuous improvement in a robust team environment.
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Yash Technologies}{Dec 2021 -- Oct 2023}
+      {Java Software Developer }{Bangalore, Karnataka}
+      \resumeItemListStart
+      \resumeItem{E-Shop is a Merck Group E-Commerce website that offers surface solutions that cover applications like cosmetics, coatings, and communication.}
+      \resumeItem{Designed and developed robust back-end RESTful APIs using Jax-RS and Java-associated frameworks like Spring Boot and tested them using Swagger-UI and Postman.}
+      \resumeItem{Resolved critical bugs and issues through meticulous debugging and testing, ensuring a bug fix success rate of 95\% and minimizing production incidents by 30\%.}
+     \resumeItem{Developed a service to automatically perform a set of Tasks daily on a product in development in order to decrease the time needed for team members to identify and fix bugs/issues.}
+      \resumeItem{Collaborated closely with cross-functional teams, including designers and QA engineers, to ensure seamless integration and high-quality deliverables.}
+      \resumeItem{Achieved an on-time delivery rate of 95\% by utilizing Agile methodologies and delivering software modules within tight deadlines.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Client: Applied Science (Merck, Pune)}{}
+      {Trainee Java Developer}{Pune, Maharashtra}
+      \resumeItemListStart
+        \resumeItem{Merck build technology products \& services for healthcare \& life science segments. BSSN software is the product of Merck which provide tools and services to enable end users and instrument vendor to efficiently use and share scientific data, improving communication and influence within the Global scientific community.}
+        \resumeItem{Designed and developed converters for various formats to be converted into an open standard AnIML format.}
+        \resumeItem{Collaborated with team members using version control systems such as Git to organize modifications and assign tasks.}
+        \resumeItem{Analyzed XML schema and mapping files to build converters that provide structured AnIML files.}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Human Resource Management System} \href{https://github.com/shubhamthakur614/HRMS}{\raisebox{-0.2\height}\faLink} } {October 2021}
+          \resumeItemListStart
+            \resumeItem{Developed a Web Application using Java Technology and Angular Framework to maintain the details of Employees working in the organization}
+            \resumeItem{Implemented Web Services to maintain the information about their employees’ details and the payroll system which enables them to generate the pay slip.}
+            \resumeItem{\textbf{Technologies Used:} Java, Data JPA, MySQL, Angular}\\
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \textbf{Languages}{: Java, SQL, Angular, HTML / CSS } \\
+    \textbf{Frameworks}{: Spring MVC, Spring Boot, Hibernate, Microservices, Mockito, J2EE } \\
+    \textbf{Databases}{: MySQL, Cassandra } \\
+    \textbf{Technologies:}{: Collections, OOPS, GitHub, JUnit, JIRA, REST, Design pattern, Maven, JSON, XML, Docker, Agile, Unit Testing} \\
+     \textbf{Developer Tools}{: Eclipse, STS, VS Code, Postman, Intellij Idea } \\
+     
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%-----------EDUCATION---------------
+\section{Education}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Savitribai Phule Pune University}{Aug. 2016 -- July 2019}
+    {Bachelor of Engineering in Electronics and Telecommunication}{Pune, Maharashtra}
+        
+    \resumeSubHeadingListEnd
+
+
+\end{document}

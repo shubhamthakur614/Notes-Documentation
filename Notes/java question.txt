@@ -1,0 +1,218 @@
+Java Questions
+Life cycle of thred
+1) Fail fast and Fail safe collections.
+jvm jre and jdk ?
+static method can be override ?
+diff b/w list and set
+diff b/w hashset and treeset
+how sorting is performed in treeset ?
+diff b/w sleep and wait?
+diff b/w noclasdeffound and classnotfound exception
+how u catch exception through jdbc templates
+create your own custom exception class
+What are the Memory Allocations available in Java
+
+design pattern of dispatcherservlet
+modules of spring
+scope of bean
+prototype through singlton and vice versa ?
+same class with diferent bean id in xml file and if yes then how many instances ?
+
+mappings in hibernate
+
+
+
+Second Round :
+
+diff between hashmap and concurentHashmap
+concurentHashmap in detail
+Bean Cycle
+MVC pattern and its flow
+Callable interface
+Why hibernate and its advantages?
+caching in hibernate
+how to enable second level caching ?
+Indexing- clustered - non-clustered
+
+Q.Can two threads of two different objects of same class can access a syncronized method in that class or not?
+Ans:In summary, synchronized methods in Java are synchronized per instance (object), so multiple threads 
+can call synchronized methods on different instances of the same class simultaneously 
+without blocking each other. However, if multiple threads try to call the synchronized method on 
+the same instance, they will be synchronized and execute one at a time.
+
+- There are three methods as below.
+void method(double d, int i){}
+void method(int i, double d){}
+void method(String s1, String s2){}
+Now, if I call method(0,0). Which method will be called?
+- Tell me 5 things which I can do to override any method.
+- Why Strings are immutable?
+- Write your own immutable class. Then following questions of Deep cloning.
+- Which are the Wrapper classes in java?
+- Write a program to reverse a string without using any inbuilt direct function.
+- Write a program to check numbers till 10 are even or odd using recursion.
+- Write a program to check given string is Palindrome or not.
+- Can we write custom exception? If yes, how?
+- What is contract between equals() and hashcode(). Show me by writing code if you want to override both methods.
+- I have a class i.e Employee which has two properties id and name. If I want to sort list of employees by their names, what should I do?
+- Difference between synchronized and Lock.
+- Difference between synchronizedMap and ConcurrentHashMap.
+- Producer/Consumer problem using wait and notify
+- Write a program of Producer/Consumer problem using BlockingQueue.
+- Spring IOC. What are different ways to achieve Spring IOC?
+- Difference between BeanFactory and ApplicationContext.
+- Spring Bean Lifecycle.
+- How to create RESTful Webservice in Spring.
+- What to do if I want to get 1st number employee details by hitting URL www.restapi.com/employee/1. Write a controller method for the same.
+- What are the properties to configure Hibernate?
+- What is dialect? Why is it used?
+- How do we write query in Hibernate same as ‘SELECT * FROM EMPLOYEES’ in SQL?
+- What are alternatives to write queries in Hibernate apart from HQL?
+- Write configuration for one-to-many relationship between two classes in Hibernate.
+- Difference between save() and merge().
+- List<ParentClass> list = new ArrayList<ChildClass>();
+What will happen?
+- I have one method void method(ArrayList<String> list){}.
+I’m calling this method by passing raw-type arraylist i.e. method(new ArrayList()). What will happen?
+- How to convert given String to integer? If I do Integer.parseInt("chintan"); what will happen?
+- What are the classes you have used for Stream io?
+- What is the difference between Aggregation and Composition?
+
+Q1) Write simple java code for ,whether given string have character "i" ,using stream API only.
+Ex: If input is "hello" word, output will be false, as the word doesn't have letter "i".
+ans:
+
+Q2) what is volatile keyword is used for?
+ans:
+
+Q3)explain oops concepts?
+ans:
+
+Q4)why java doesn't support multiple inheritance, what happens if we try to implement? can you explain with some example ?
+ans:
+
+Q5)what is multi threading? Do you know about executor ?
+ans:
+
+Q6)what is REST?
+ans:
+
+Q7)When we are opening a google page, which type of request it is?GET or POST or other requests?
+ans:
+
+Q8)how Requests are mapping with servlets in SPRING MVC? can you explain?
+ans:
+
+Q9)Why spring boot s required,when we have many spring components already?Advanatages of Springboot?
+ans:
+
+Q10)what is Springboot profiling concept?
+ans:
+
+Q11)What are the things you write or configure,in your spring boot application,related to tomcat?
+ans:
+
+Q12)what collections you used in your project?explain How hashmap buckets internally works?
+ans:
+
+Q13)DIfference between HTTP and HTTPS?
+ans:
+Q.triggers Cursors Joins Exception handling
+
+
+Q14)What type of errorcodes you get genearlly, when you access a REST webservice using browser? 
+ans:
+When accessing a REST web service using a web browser, you may encounter various HTTP status codes. 
+These status codes provide information about the outcome of the HTTP request and are typically in the 
+form of a three-digit numeric code. Here are some common HTTP status codes you may encounter when 
+accessing a REST web service with a browser:
+
+200 OK: This status code indicates a successful HTTP request. The server has processed the request
+ and is returning the requested data.
+
+201 Created: This code is often used when you perform a POST request to create a new resource on 
+the server. It indicates that the resource was successfully created.
+
+204 No Content: This status code is returned when the server has successfully processed the request,
+ but there is no data to return in the response body. It is often used for DELETE requests.
+
+400 Bad Request: This code signifies that the server cannot understand the request due to invalid 
+syntax or other client-side errors. It often indicates a problem with the request itself.
+
+401 Unauthorized: This status code indicates that authentication is required, and the provided 
+credentials (if any) are invalid or missing. You need to authenticate to access the resource.
+
+403 Forbidden: The server understood the request, but it refuses to fulfill it. This typically 
+means that the client does not have permission to access the requested resource.
+
+404 Not Found: This status code is returned when the requested resource does not exist on the server. 
+It's one of the most common error codes encountered when a URL is mistyped or a resource has been removed.
+
+500 Internal Server Error: This code indicates that something went wrong on the server's side while 
+processing the request. It's a generic error that does not provide specific details about the problem.
+
+502 Bad Gateway: This status code is often returned when a proxy server or gateway encountered an 
+error while forwarding the request to the backend server.
+
+503 Service Unavailable: The server is currently unable to handle the request, typically due to 
+being overloaded or undergoing maintenance. It's a temporary condition.
+
+Q.Microservices Benifits
+Microservices architecture offers several benefits, but it also comes with its own set of disadvantages.
+ Here's a list of some of the key benefits and disadvantages of microservices:
+
+Benefits of Microservices:
+
+Scalability: Microservices can be independently scaled, allowing you to allocate resources efficiently 
+based on specific services' needs.
+
+Flexibility: Teams can choose the most appropriate technology stack for each microservice, providing 
+flexibility in technology selection and upgrades.
+
+Faster Development: Smaller teams can work independently on microservices, accelerating development 
+cycles and time-to-market.
+
+Easy Maintenance: Isolating services makes it easier to understand, maintain, and update them without 
+affecting the entire system.
+
+Resilience: Failures in one microservice don't necessarily affect the entire system, enhancing fault 
+tolerance and reliability.
+
+Improved Scaling: Services that experience high demand can be scaled independently, optimizing resource 
+utilization.
+
+Technology Heterogeneity: Microservices allow for different programming languages and frameworks to be 
+used, enabling the best tool for each job.
+
+Better Testing: Smaller codebases are easier to test thoroughly, leading to improved software quality.
+
+Enhanced Fault Isolation: Problems in one microservice don't propagate to others, reducing the scope of system-wide failures.
+
+Easier Deployment: Smaller services are easier to deploy, reducing deployment risks and downtime.
+
+Disadvantages of Microservices:
+
+Complexity: Managing multiple microservices can be complex, especially in terms of coordination, deployment, and monitoring.
+
+Increased Latency: Inter-service communication can introduce latency, impacting system performance.
+
+Operational Overhead: Managing and monitoring a large number of services can require substantial operational effort.
+
+Data Consistency: Maintaining data consistency across microservices can be challenging, especially in distributed systems.
+
+Testing Complexity: Coordinating integration tests between services can be difficult, leading to testing challenges.
+
+Communication Overhead: Overuse of network communication can lead to increased overhead and complexity.
+
+Security: Securing microservices and their interactions can be more challenging than securing a monolithic application.
+
+Versioning: Managing backward and forward compatibility when evolving services can be complex.
+
+Resource Consumption: Running multiple instances of various services may consume more resources than a monolithic application.
+
+Initial Setup: Setting up a microservices architecture from scratch can be time-consuming and resource-intensive.
+
+In summary, microservices offer flexibility, scalability, and resilience but introduce complexity, 
+operational challenges, and increased latency. 
+The decision to adopt a microservices architecture should consider these trade-offs based on the 
+specific requirements and constraints of the project.
