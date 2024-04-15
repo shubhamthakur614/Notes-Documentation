@@ -1,10 +1,9 @@
 
 1)Tell me about yourself?
-Hello Mam.I am Shubham thakur i am recognized for my technical skiils and 
 
-Currently i am working with yash technology from past 2 years are there my main 
-responsibilities were to worked with backend team I have Completed my bachlers from pune university.
-
+Hello my name is shubham thakur i am basically from pune from past 2 yr i am working with yash technologies as a backend java developer.The technology that i use there while working as a 
+backend java developer are core java ,spring ,spring boot, hibernate and microservices architecture and in database i am using mysql and also started learning mongodb as well.
+c
 I am highly motivated and commited person.and I would love to bring in my 2 year of experiance and 
 expertise to help you meet the company requirements.
 
